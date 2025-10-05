@@ -1,16 +1,50 @@
-# oracoes_app
+# Oração do Dia - Flutter App
 
-A new Flutter project.
+Um aplicativo simples e elegante em Flutter que apresenta uma **oração ou citação bíblica diária**, com design moderno e animações suaves de gradiente. Ideal para momentos de reflexão e inspiração ao longo do dia.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Exibe uma oração ou citação bíblica aleatória ao abrir o app.
+- Botão **“Nova Oração”** para gerar uma nova oração aleatória.
+- Animação de **gradiente de fundo** que muda suavemente de cor.
+- Layout responsivo e compatível com diferentes tamanhos de tela.
+- Tipografia agradável, com destaque para títulos e corpo de texto.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎨 Design
+
+- Tema escuro com gradientes entre tons de roxo e azul.
+- Tipografia elegante usando a fonte **Georgia**.
+- Ícones simples e harmoniosos para complementar o visual.
+- Animação de transição suave ao mudar a oração, utilizando `AnimatedSwitcher`.
+
+---
+
+## 🛠 Tecnologias
+
+- [Flutter](https://flutter.dev/)  
+- Dart  
+- Widgets utilizados:
+  - `MaterialApp`
+  - `Scaffold`
+  - `AnimatedBuilder`
+  - `AnimatedSwitcher`
+  - `ElevatedButton`
+  - `LinearGradient`
+  - `AnimationController`
+
+---
+
+## ⚡ Como Rodar
+
+1. Certifique-se de ter o Flutter instalado e configurado:  
+   [Flutter Installation](https://flutter.dev/docs/get-started/install)
+
+2. Clone o repositório:  
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+
+3. Você pode executar o APK em seu dispositivo android 
